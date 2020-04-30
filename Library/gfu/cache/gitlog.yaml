@@ -13,9 +13,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-30T23:38:53.006+03:00
-  initializedAtString: 2020-04-30T23:37:32.168+03:00
+  lastUpdatedAtString: 2020-04-30T23:54:28.787+03:00
+  initializedAtString: 2020-04-30T23:51:48.576+03:00
   log:
+  - commitID: 27ad856233b9a6ee6f6b742975f930457ba2e066
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: sh
+    description: 
+    timeString: 2020-04-30T23:54:26.000+03:00
+    commitTimeString: 2020-04-30T23:54:26.000+03:00
+    changes:
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 0f14f5d5eca2e8f535ae65b54fa82aa910b3a03c
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: pv
+    description: 
+    timeString: 2020-04-30T23:52:43.000+03:00
+    commitTimeString: 2020-04-30T23:52:43.000+03:00
+    changes:
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2cceec089759c54dd0ff7ed28f5f837e6ef39074
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: rt
+    description: 
+    timeString: 2020-04-30T23:52:15.000+03:00
+    commitTimeString: 2020-04-30T23:52:15.000+03:00
+    changes:
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: dbc43a2c7981f0f62132ede192d063caae20d271
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: ed
+    description: 
+    timeString: 2020-04-30T23:52:05.000+03:00
+    commitTimeString: 2020-04-30T23:52:05.000+03:00
+    changes:
+    - path: Library\EditorInstance.json
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 73a4f85066141d14b479a3b1e17ab1d6480c530e
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: curl
+    description: 
+    timeString: 2020-04-30T23:51:56.000+03:00
+    commitTimeString: 2020-04-30T23:51:56.000+03:00
+    changes:
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: e3e254bf37fc8d7414ab52c3fbc9f472ed77f678
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: ex
+    description: 
+    timeString: 2020-04-30T23:51:46.000+03:00
+    commitTimeString: 2020-04-30T23:51:46.000+03:00
+    changes:
+    - path: Library\expandedItems
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 6f978c292c3eea26878ba1f418ef4d139c260395
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: aswq
+    description: 
+    timeString: 2020-04-30T23:41:24.000+03:00
+    commitTimeString: 2020-04-30T23:41:24.000+03:00
+    changes:
+    - path: Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\46b7a0-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 4a47880849e1c7ac520ba04270e9fd96d1674690
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: asdfg
+    description: 
+    timeString: 2020-04-30T23:39:03.000+03:00
+    commitTimeString: 2020-04-30T23:39:03.000+03:00
+    changes:
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 831b894e56ebdb268597b8982cbb58ef354c19f4
     mergeA: 
     mergeB: 
