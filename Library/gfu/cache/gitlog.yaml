@@ -13,9 +13,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-30T22:44:48.461+03:00
+  lastUpdatedAtString: 2020-04-30T22:44:56.152+03:00
   initializedAtString: 2020-04-30T22:35:52.631+03:00
   log:
+  - commitID: 4017924e0f28e6bc02c858f6a2ee066d3b40db62
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: lkjhgf
+    description: 
+    timeString: 2020-04-30T22:44:55.000+03:00
+    commitTimeString: 2020-04-30T22:44:55.000+03:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 5fff4c70340f1c8e4ff1003dc147a3bb80aed1c5
     mergeA: 
     mergeB: 
