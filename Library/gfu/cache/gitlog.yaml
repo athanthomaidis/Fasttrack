@@ -13,9 +13,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-30T23:54:46.748+03:00
+  lastUpdatedAtString: 2020-04-30T23:55:25.243+03:00
   initializedAtString: 2020-04-30T23:51:48.576+03:00
   log:
+  - commitID: 3c6f864c13370947e23f2737dabc0ec9b2d2208f
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: all2
+    description: 
+    timeString: 2020-04-30T23:55:23.000+03:00
+    commitTimeString: 2020-04-30T23:55:23.000+03:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: a7fdcc3f608ff0ac7aa6b369d0f27f5aa0aebb12
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: all
+    description: 
+    timeString: 2020-04-30T23:54:59.000+03:00
+    commitTimeString: 2020-04-30T23:54:59.000+03:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 457d6f8c48f688b5e39801625d31480b192faaf9
     mergeA: 
     mergeB: 
