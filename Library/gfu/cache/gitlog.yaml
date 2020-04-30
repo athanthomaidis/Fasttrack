@@ -13,9 +13,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-04-30T23:54:28.787+03:00
+  lastUpdatedAtString: 2020-04-30T23:54:46.748+03:00
   initializedAtString: 2020-04-30T23:51:48.576+03:00
   log:
+  - commitID: 457d6f8c48f688b5e39801625d31480b192faaf9
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: brabch
+    description: 
+    timeString: 2020-04-30T23:54:45.000+03:00
+    commitTimeString: 2020-04-30T23:54:45.000+03:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 32dbc118b0ef169b314cf5635f13577d39926f90
+    mergeA: 
+    mergeB: 
+    authorName: athanthomaidis
+    authorEmail: athomaidis@citycollege.sheffield.eu
+    commitEmail: athomaidis@citycollege.sheffield.eu
+    commitName: athanthomaidis
+    summary: log
+    description: 
+    timeString: 2020-04-30T23:54:36.000+03:00
+    commitTimeString: 2020-04-30T23:54:36.000+03:00
+    changes:
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\konia\Desktop\Fasttrack\Fasttrack\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 27ad856233b9a6ee6f6b742975f930457ba2e066
     mergeA: 
     mergeB: 
