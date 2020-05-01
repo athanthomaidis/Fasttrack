@@ -667,9 +667,6 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TerrainTools">
-      <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Monetization">
       <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
@@ -712,14 +709,17 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TerrainTools.Editor">
-      <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools">
+      <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+      <HintPath>D:/Desktop/Computer Science/Fasttrack/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
