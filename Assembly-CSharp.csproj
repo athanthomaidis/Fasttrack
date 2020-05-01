@@ -697,6 +697,15 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>C:/Users/konia/Desktop/Fasttrack/Fasttrack/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:/Users/konia/Desktop/Fasttrack/Fasttrack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:/Users/konia/Desktop/Fasttrack/Fasttrack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>C:/Users/konia/Desktop/Fasttrack/Fasttrack/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
