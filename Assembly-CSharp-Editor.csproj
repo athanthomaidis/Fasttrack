@@ -65,6 +65,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Editor\GraphOverlayEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\VehicleSkeletonWizard.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\2DTools\Editor\TTTools2D.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\ClearWaterLevel.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\IncrementalSplatmapping.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\PlaceOnTerrain.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\RandomObjectMap.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\SplatMapGenerator.cs" />
+    <Compile Include="Assets\Tom's Terrain Tools\Editor\TerrainTools.cs" />
     <None Include="Assets\Scripts\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
