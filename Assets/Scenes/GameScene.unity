@@ -999,6 +999,21 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[41]
       value: 
       objectReference: {fileID: 2055125305}
+    - target: {fileID: 715117480436052761, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d257aba68e7397649a4ca846a0a6d3d1, type: 2}
+    - target: {fileID: 1405233305834330337, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4927564841155573897, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
 --- !u!1 &528175144
