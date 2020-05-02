@@ -2000,7 +2000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &705965971
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2081,7 +2081,7 @@ MonoBehaviour:
   observable: {fileID: 131493744}
   aheadSpeed: 0.8
   followDumping: 1
-  cameraHeight: 50
+  cameraHeight: 70
 --- !u!1 &718938934
 GameObject:
   m_ObjectHideFlags: 0
