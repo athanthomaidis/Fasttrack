@@ -807,6 +807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Track2
       objectReference: {fileID: 0}
+    - target: {fileID: -113181020801827196, guid: 730a518e35b668a47a82738b96099d17,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 329408861b0ac6246acb24190aa07b9c, type: 2}
     - target: {fileID: 7373385493063876317, guid: 730a518e35b668a47a82738b96099d17,
         type: 3}
       propertyPath: m_LocalScale.x
