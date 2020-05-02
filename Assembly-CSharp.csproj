@@ -71,6 +71,11 @@
      <Compile Include="Assets\Scripts\GraphOverlay.cs" />
      <Compile Include="Assets\Scripts\MainMenu\Control.cs" />
      <Compile Include="Assets\Scripts\WheelDrive.cs" />
+     <Compile Include="Assets\SimpleVehicleAI\Scripts\AIVehicle.cs" />
+     <Compile Include="Assets\SimpleVehicleAI\Scripts\BrakeZone.cs" />
+     <Compile Include="Assets\SimpleVehicleAI\Scripts\DrawTriggers.cs" />
+     <Compile Include="Assets\SimpleVehicleAI\Scripts\Waypoint.cs" />
+     <Compile Include="Assets\SimpleVehicleAI\Scripts\WheelAlign.cs" />
      <Compile Include="Assets\Sounds\DontDestroyAudio.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
