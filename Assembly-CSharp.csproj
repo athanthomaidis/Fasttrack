@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Game\AIControllerManager.cs" />
     <Compile Include="Assets\Scripts\Game\CarController.cs" />
     <Compile Include="Assets\Scripts\Game\CarPosition.cs" />
+    <Compile Include="Assets\Scripts\Game\ChangeCheckpoint.cs" />
     <Compile Include="Assets\Scripts\Game\CheckpointController.cs" />
     <Compile Include="Assets\Scripts\Game\GameController.cs" />
     <Compile Include="Assets\Scripts\Game\GameManagerScript.cs" />
