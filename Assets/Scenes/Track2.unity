@@ -2245,7 +2245,7 @@ MonoBehaviour:
   observable: {fileID: 769083753}
   aheadSpeed: 0.8
   followDumping: 1
-  cameraHeight: 50
+  cameraHeight: 70
 --- !u!20 &1432695836
 Camera:
   m_ObjectHideFlags: 0
