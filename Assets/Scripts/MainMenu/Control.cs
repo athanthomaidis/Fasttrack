@@ -9,11 +9,13 @@ public class Control : MonoBehaviour
     }
     public void startFirstTrack()
     {
+        Debug.Log("Medium");
         SceneManager.LoadScene("GameScene");
 
     }
     public void startSecondTrack()
     {
+        Debug.Log("Easy");
         SceneManager.LoadScene("Track2");
     }
     public void exitGame()
@@ -28,5 +30,6 @@ public class Control : MonoBehaviour
     {
         SceneManager.LoadScene("Options");
     }
+
 
 }

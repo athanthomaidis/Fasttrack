@@ -42,13 +42,10 @@
      <Compile Include="Assets\Scripts\Game\AIControllerManager.cs" />
      <Compile Include="Assets\Scripts\Game\CarController.cs" />
      <Compile Include="Assets\Scripts\Game\CarPosition.cs" />
-     <Compile Include="Assets\Scripts\Game\CheckpointsMarkers.cs" />
-     <Compile Include="Assets\Scripts\Game\CountDown.cs" />
+     <Compile Include="Assets\Scripts\Game\CheckpointController.cs" />
      <Compile Include="Assets\Scripts\Game\GameController.cs" />
      <Compile Include="Assets\Scripts\Game\GameManagerScript.cs" />
-     <Compile Include="Assets\Scripts\Game\LapComplete.cs" />
-     <Compile Include="Assets\Scripts\Game\LapTimeManager.cs" />
-     <Compile Include="Assets\Scripts\Game\groundCheck.cs" />
+     <Compile Include="Assets\Scripts\Game\LapsController.cs" />
      <Compile Include="Assets\Scripts\GameScene\PlayerCar.cs" />
      <Compile Include="Assets\Scripts\GameScene\TopDownCamera.cs" />
      <Compile Include="Assets\Scripts\GraphOverlay.cs" />
