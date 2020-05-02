@@ -1009,6 +1009,16 @@ PrefabInstance:
       propertyPath: waypoints.Array.data[43]
       value: 
       objectReference: {fileID: 1732364349}
+    - target: {fileID: 7638439226216248690, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: correspondingCollider
+      value: 
+      objectReference: {fileID: 1577819024}
+    - target: {fileID: 8668705842660352770, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: correspondingCollider
+      value: 
+      objectReference: {fileID: 1834536119}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
 --- !u!1 &528175144
@@ -3343,6 +3353,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!146 &1577819024 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 146183901793885974, guid: b196e1dfe7d444244bbb11ffd632a0de,
+    type: 3}
+  m_PrefabInstance: {fileID: 503753034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1649514881
 GameObject:
   m_ObjectHideFlags: 0
@@ -3581,6 +3597,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b635deef42f1f0e4bb28ce98ec0d0cff, type: 3}
+--- !u!146 &1834536119 stripped
+WheelCollider:
+  m_CorrespondingSourceObject: {fileID: 146172258457263576, guid: b196e1dfe7d444244bbb11ffd632a0de,
+    type: 3}
+  m_PrefabInstance: {fileID: 503753034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1840087747
 GameObject:
   m_ObjectHideFlags: 0
