@@ -207,6 +207,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 287882673}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -219,6 +220,8 @@ Transform:
 =======
 =======
 >>>>>>> parent of 4039ec4... ai vehicle
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
   m_GameObject: {fileID: 641045961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -93.68702, y: 3.0105848, z: -40.722755}
@@ -226,10 +229,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &641045963
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &641045963
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -271,6 +280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 368947029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 94.2, y: 1.2, z: -265.9}
@@ -278,6 +288,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1828513266}
 =======
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
 >>>>>>> parent of 4039ec4... ai vehicle
   m_GameObject: {fileID: 651006074}
@@ -288,8 +300,12 @@ Transform:
   - {fileID: 1713051695}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
   m_RootOrder: 11
+=======
+  m_RootOrder: 13
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
   m_RootOrder: 13
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -395,6 +411,8 @@ MonoBehaviour:
   followDumping: 1
   cameraHeight: 70
 --- !u!1 &718938934
+<<<<<<< HEAD
+=======
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -411,6 +429,108 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!108 &718938935
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718938934}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &718938936
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718938934}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &764016771
+>>>>>>> parent of 4039ec4... ai vehicle
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 718938936}
+  - component: {fileID: 718938935}
+  m_Layer: 0
+  m_Name: Directional Light
+=======
+  - component: {fileID: 764016774}
+  - component: {fileID: 764016773}
+  - component: {fileID: 764016772}
+  m_Layer: 0
+  m_Name: EventSystem
+>>>>>>> parent of 4039ec4... ai vehicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
 --- !u!108 &718938935
 Light:
   m_ObjectHideFlags: 0
@@ -524,6 +644,33 @@ MonoBehaviour:
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
 --- !u!114 &764016773
+=======
+--- !u!114 &764016772
+>>>>>>> parent of 4039ec4... ai vehicle
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764016771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+=======
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &764016773
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -535,6 +682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+>>>>>>> parent of 4039ec4... ai vehicle
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -567,6 +715,7 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 4066356867975186, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -678,6 +827,9 @@ PrefabInstance:
 =======
     - target: {fileID: 4949435829697862, guid: cd444978e24d7d44fa26d1634f135d14, type: 3}
 >>>>>>> parent of 4039ec4... ai vehicle
+=======
+    - target: {fileID: 4949435829697862, guid: cd444978e24d7d44fa26d1634f135d14, type: 3}
+>>>>>>> parent of 4039ec4... ai vehicle
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -709,10 +861,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 1
 =======
       value: 13
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+      value: 9
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 9
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -937,6 +1093,7 @@ Canvas:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1340883365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -177.7, y: 2.2, z: -167.5}
@@ -946,6 +1103,8 @@ Canvas:
   m_RootOrder: 20
 =======
 =======
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
   m_GameObject: {fileID: 1302574958}
   m_Enabled: 1
   serializedVersion: 3
@@ -967,6 +1126,9 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 4039ec4... ai vehicle
+=======
 >>>>>>> parent of 4039ec4... ai vehicle
   m_GameObject: {fileID: 1302574958}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -976,8 +1138,12 @@ RectTransform:
   - {fileID: 2059810146}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 14
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+  m_RootOrder: 16
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
   m_RootOrder: 16
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -1126,7 +1292,11 @@ PrefabInstance:
     - target: {fileID: 4604226542555818, guid: d7ab8fad6983f214b87bc2bf067b2d52, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 12
+=======
+      value: 11
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 11
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -1145,6 +1315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7ab8fad6983f214b87bc2bf067b2d52, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1456179885
 GameObject:
@@ -1386,6 +1557,8 @@ Transform:
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
 =======
 >>>>>>> parent of 4039ec4... ai vehicle
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
 --- !u!1 &1712688100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,10 +1653,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 8
 =======
       value: 6
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+      value: 7
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 7
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -1637,10 +1814,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 11
 =======
       value: 9
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+      value: 10
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 10
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -1659,6 +1840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8707bb355a639c341aea986266fbb5ee, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1959534051
@@ -1781,6 +1963,8 @@ MonoBehaviour:
   isStart: 1
 =======
 >>>>>>> parent of 4039ec4... ai vehicle
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
 --- !u!1001 &1971280026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1843,6 +2027,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6d3e3c76358b804fb60864bef3ad40b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &2038668117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,6 +2089,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
 >>>>>>> parent of 4039ec4... ai vehicle
 --- !u!1 &2059810145
@@ -2312,10 +2499,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
 =======
       value: 7
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+      value: 8
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 8
 >>>>>>> parent of 4039ec4... ai vehicle
@@ -2392,10 +2583,14 @@ PrefabInstance:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 13
 =======
       value: 10
 >>>>>>> d5d754ed81d24f1bcf04dfc46bb55e81b6eab94b
+=======
+      value: 12
+>>>>>>> parent of 4039ec4... ai vehicle
 =======
       value: 12
 >>>>>>> parent of 4039ec4... ai vehicle
