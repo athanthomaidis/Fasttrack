@@ -3568,6 +3568,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114958487951509258, guid: cd444978e24d7d44fa26d1634f135d14,
+        type: 3}
+      propertyPath: finishLine
+      value: 
+      objectReference: {fileID: 950739707}
+    - target: {fileID: 114958487951509258, guid: cd444978e24d7d44fa26d1634f135d14,
+        type: 3}
+      propertyPath: AIcar1
+      value: 
+      objectReference: {fileID: 1956296982}
+    - target: {fileID: 114958487951509258, guid: cd444978e24d7d44fa26d1634f135d14,
+        type: 3}
+      propertyPath: humanCar
+      value: 
+      objectReference: {fileID: 850141688}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd444978e24d7d44fa26d1634f135d14, type: 3}
 --- !u!1 &793350311
@@ -5578,7 +5593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551600474}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
