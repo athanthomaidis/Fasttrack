@@ -5,11 +5,12 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameObject humanCar;
+    public GameObject AIcar1;
     protected Transform carPosition;
-    public GameObject startLine;
     public GameObject finishLine;
     protected int roundCounter;
     static int MAXROUNDS;
+    
 
     private void Awake()
     {
@@ -19,15 +20,19 @@ public class GameController : MonoBehaviour
     }
     private void Update()
     {
-
-    }
-    void OnTriggerEnter(Collider _objectWhichPassTheLine)
-    {
-        /*if (_objectWhichPassTheLine.gameObject.CompareTag(humanCar))
+        if(finishLine.GetComponent<finishLineController>().ranking.Count>0)
         {
-            roundCounter++;
+            if(finishLine.GetComponent<finishLineController>().ranking[0]=="Player")
+            {
+                //player wins finish game
+                endGame();
+            }
+            else if(finishLine.GetComponent<finishLineController>().ranking.Count==2)
+            {
+                endGame();
+                //computer wins but wait until player reach finish 
+            }
         }
-        checkLapCounter();*/
     }
 
     void checkLapCounter()
@@ -41,8 +46,16 @@ public class GameController : MonoBehaviour
     void endGame()
     {
         //do whatever you need to.
-        Debug.Log("The game is ended, the player did 3 lap");
+        Debug.Log("The game is ended, the player wins");
         //initialization();
     }
+
+    void endGameAI()
+    {
+        //do whatever you need to.
+        Debug.Log("The game is ended AI WINS");
+        //initialization();
+    }
+
 
 }
