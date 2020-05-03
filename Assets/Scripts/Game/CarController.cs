@@ -7,14 +7,12 @@ public class CarController : MonoBehaviour
     int roundCounter;
     int checkpointCounter;
 
-    private void Sta()
+    private void Start()
     {
         roundCounter = 0;
         checkpointCounter = 0;
 
     }
-
-
     public void addCheckpoint()
     {
         checkpointCounter++;
@@ -34,7 +32,4 @@ public class CarController : MonoBehaviour
     {
         return roundCounter;
     }
-
-
-    
 }

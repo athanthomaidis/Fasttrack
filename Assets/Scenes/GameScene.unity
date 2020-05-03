@@ -1300,6 +1300,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 34ef5b3dec7845e469b04369b3e602ec, type: 2}
+    - target: {fileID: 6726415537819832818, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7295124399675731277, guid: b196e1dfe7d444244bbb11ffd632a0de,
         type: 3}
       propertyPath: m_SuspensionSpring.spring
@@ -1379,6 +1384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SuspensionDistance
       value: 0.19620001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7423737774390161318, guid: b196e1dfe7d444244bbb11ffd632a0de,
+        type: 3}
+      propertyPath: m_Name
+      value: ai
       objectReference: {fileID: 0}
     - target: {fileID: 7638439226216248690, guid: b196e1dfe7d444244bbb11ffd632a0de,
         type: 3}
@@ -3532,6 +3542,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   next: {fileID: 551181960}
   isStart: 0
+--- !u!1 &996860849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1095042652665324, guid: b635deef42f1f0e4bb28ce98ec0d0cff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1804993748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &996860850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996860849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c6658694423ce4ead5a73cedd2aef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
+  ranking: []
 --- !u!1 &1015089878
 GameObject:
   m_ObjectHideFlags: 0
@@ -6257,6 +6288,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SuspensionDistance
       value: 0.19620001
+      objectReference: {fileID: 0}
+    - target: {fileID: 984618103554563458, guid: a5bf6f2439712a54988c5132dfb9159a,
+        type: 3}
+      propertyPath: m_Name
+      value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 984618103554563485, guid: a5bf6f2439712a54988c5132dfb9159a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 984618103918162755, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
