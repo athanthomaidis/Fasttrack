@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\Game\GameController.cs" />
      <Compile Include="Assets\Scripts\Game\GameManagerScript.cs" />
      <Compile Include="Assets\Scripts\Game\LapsController.cs" />
+     <Compile Include="Assets\Scripts\GameScene\CountDownTimer.cs" />
      <Compile Include="Assets\Scripts\GameScene\PlayerCar.cs" />
      <Compile Include="Assets\Scripts\GameScene\TopDownCamera.cs" />
      <Compile Include="Assets\Scripts\GraphOverlay.cs" />
