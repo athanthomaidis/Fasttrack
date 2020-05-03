@@ -9,6 +9,7 @@ public class CountDownTimer : MonoBehaviour
     float startingTime = 3f;
 
     [SerializeField] Text countdownText;
+    [SerializeField] GameObject panel;
 
 
     // Start is called before the first frame update
@@ -19,10 +20,12 @@ public class CountDownTimer : MonoBehaviour
     void Update(){
         currentTime -= 1*Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
+        //Time.timeScale = 0;
 
-        if (currentTime<0){
-            countdownText= null;
-            countdownText.gameObject.active=false;
+        if (currentTime<=0){
+            //Time.timeScale = 1;
+            countdownText = null;
+            panel.SetActive(false);
         }
         
     }

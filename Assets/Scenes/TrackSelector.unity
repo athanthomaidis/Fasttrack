@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 1313499795}
   - component: {fileID: 1313499797}
   m_Layer: 5
-  m_Name: EasyLevel
+  m_Name: TimeAttack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Easy Level
+  m_text: Time Attack
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6992511c5ab27a54c960dcd92fe3ebbe, type: 2}
   m_sharedMaterial: {fileID: 6454564705354757416, guid: 6992511c5ab27a54c960dcd92fe3ebbe,
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_margin: {x: -0.47743395, y: 1.326046, z: 0.24792054, w: 0}
   m_textInfo:
     textComponent: {fileID: 1313499795}
-    characterCount: 10
+    characterCount: 11
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
