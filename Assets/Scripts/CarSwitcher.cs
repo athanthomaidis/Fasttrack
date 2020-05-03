@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class CarSwitcher : MonoBehaviour
 {
 	public List<GameObject> vehicles;
-	public Transform spawnPoints;
+	public Transform Waypoints;
 
 	private DriftCamera m_DriftCamera;
 	private int m_VehicleId;
@@ -16,42 +16,42 @@ public class CarSwitcher : MonoBehaviour
 	
 	void Update () 
     {
-		if (Input.GetKeyUp(KeyCode.K))	
-		{
-			// Disable the previous vehicle.
-			vehicles[m_VehicleId].SetActive(false);
+		// if (Input.GetKeyUp(KeyCode.K))	
+		// {
+		// 	// Disable the previous vehicle.
+		// 	vehicles[m_VehicleId].SetActive(false);
 
-			m_VehicleId = (m_VehicleId + 1) % vehicles.Count;
+		// 	m_VehicleId = (m_VehicleId + 1) % vehicles.Count;
 
-			vehicles[m_VehicleId].SetActive(true);
+		// 	vehicles[m_VehicleId].SetActive(true);
 
-			var graph = GetComponent<GraphOverlay>();
-			if (graph)
-			{
-				graph.vehicleBody = vehicles[m_VehicleId].GetComponent<Rigidbody>();
-				graph.SetupWheelConfigs();
-			}
+		// 	var graph = GetComponent<GraphOverlay>();
+		// 	if (graph)
+		// 	{
+		// 		graph.vehicleBody = vehicles[m_VehicleId].GetComponent<Rigidbody>();
+		// 		graph.SetupWheelConfigs();
+		// 	}
 
-			// Setup the new one.
-			Transform vehicleT = vehicles[m_VehicleId].transform;
-			Transform camRig = vehicleT.Find("CamRig");
+		// 	// Setup the new one.
+		// 	Transform vehicleT = vehicles[m_VehicleId].transform;
+		// 	Transform camRig = vehicleT.Find("CamRig");
 
-			m_DriftCamera.lookAtTarget = camRig.Find("CamLookAtTarget");
-			m_DriftCamera.positionTarget = camRig.Find("CamPosition");
-			m_DriftCamera.sideView = camRig.Find("CamSidePosition");
-		}
+		// 	m_DriftCamera.lookAtTarget = camRig.Find("CamLookAtTarget");
+		// 	m_DriftCamera.positionTarget = camRig.Find("CamPosition");
+		// 	m_DriftCamera.sideView = camRig.Find("CamSidePosition");
+		// }
 
 		if (Input.GetKeyUp(KeyCode.R))
 		{
 			Transform vehicleTransform = vehicles[m_VehicleId].transform;
 			vehicleTransform.rotation = Quaternion.identity;
 
-			Transform closest = spawnPoints.GetChild(0);
+			Transform closest = Waypoints.GetChild(0);
 
 			// Find the closest spawn point.
-			for (int i = 0; i < spawnPoints.childCount; ++i)
+			for (int i = 0; i < Waypoints.childCount; ++i)
 			{
-				Transform thisTransform = spawnPoints.GetChild(i);
+				Transform thisTransform = Waypoints.GetChild(i);
 
 				float distanceToClosest = Vector3.Distance(closest.position, vehicleTransform.position);
 				float distanceToThis = Vector3.Distance(thisTransform.position, vehicleTransform.position);
