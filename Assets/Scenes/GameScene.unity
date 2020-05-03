@@ -540,6 +540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!1 &227729612
 GameObject:
@@ -2400,6 +2401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!65 &653987456
 BoxCollider:
@@ -2508,6 +2510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!65 &658043891
 BoxCollider:
@@ -3689,6 +3692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!65 &936645137
 BoxCollider:
@@ -4338,6 +4342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!65 &1348303350
 BoxCollider:
@@ -4907,7 +4912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1516313491
 Transform:
   m_ObjectHideFlags: 0
@@ -6262,6 +6267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!1 &1914701328
 GameObject:
