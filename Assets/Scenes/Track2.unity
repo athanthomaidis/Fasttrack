@@ -3021,7 +3021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05cabb1e19e2d334692771f389e13deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  observable: {fileID: 2086932482}
+  observable: {fileID: 1759996949}
   aheadSpeed: 0.8
   followDumping: 1
   cameraHeight: 70
@@ -5026,9 +5026,3 @@ Transform:
   m_Father: {fileID: 1322033727}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2086932482 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4533341737929262, guid: b196e1dfe7d444244bbb11ffd632a0de,
-    type: 3}
-  m_PrefabInstance: {fileID: 707974454}
-  m_PrefabAsset: {fileID: 0}
