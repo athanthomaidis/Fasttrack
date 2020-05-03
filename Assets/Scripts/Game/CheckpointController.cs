@@ -4,24 +4,31 @@ using UnityEngine;
 
 public class CheckpointController : MonoBehaviour
 {
-	public Transform checkpoint;
-	GameObject player;
+	//public Transform checkpoint;
+	public GameObject player;
 	public int checkpointCounter;
 	// Use this for initialization
-
-
 	void Start()
 	{
-		checkpointCounter = 0;
-		player = GameObject.FindWithTag("Player");
-	}
+        Debug.Log(player.gameObject.tag);
+        checkpointCounter = 0;
+		//player = GameObject.FindWithTag("Player");
+        //Debug.Log(player.gameObject.tag);
 
-	// Update is called once per frame
-	void OnTriggerEnter(Collider plyr)
+    }
+    //update
+
+
+    // Update is called once per frame
+    private void OnTriggerEnter(Collider plyr)
 	{
-		if (plyr.gameObject.tag == "Player")
+        checkpointCounter++;
+        Debug.Log("inside");
+		if (plyr.tag.Equals("Player"))
 		{
-			checkpointCounter++;
+            Debug.Log("inside if");
+
+            checkpointCounter++;
 		}
 	}
 }

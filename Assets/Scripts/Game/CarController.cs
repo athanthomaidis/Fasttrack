@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
+    int roundCounter;
+    int checkpointCounter;
+
+
+
     
 }
