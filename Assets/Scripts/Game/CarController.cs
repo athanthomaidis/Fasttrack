@@ -28,6 +28,10 @@ public class CarController : MonoBehaviour
             roundCounter++;
         }
     }
+    public void resetTolastCheckpoint()
+    {
+
+    }
     public int getRounds()
     {
         return roundCounter;
