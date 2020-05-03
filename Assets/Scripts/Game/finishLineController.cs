@@ -29,6 +29,7 @@ public class finishLineController : MonoBehaviour
             if (player.GetComponent<CarController>().getRounds() > 3)
             {
                 ranking.Add("Player");
+                
             }
         }
         
