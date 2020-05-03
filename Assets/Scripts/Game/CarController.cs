@@ -28,7 +28,7 @@ public class CarController : MonoBehaviour
     }
     public void finishROund()
     {
-        if(checkpointCounter==5)
+        if(checkpointCounter>=5)
         {
             roundCounter++;
             Debug.Log(roundCounter);
