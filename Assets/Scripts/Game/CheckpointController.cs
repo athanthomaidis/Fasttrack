@@ -1,31 +1,26 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class CheckpointController : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
-    {
-        //Is it the Player who enters the collider?
-        if (!other.CompareTag("car"))
-            return; //If it's not the player dont continue
+	//public Transform checkpoint;
+	public GameObject player;
+	public GameObject aiCar;
+	// Use this for initialization
 
-
-        if (transform == LapsController.checkpointA[LapsController.currentCheckpoint].transform)
+    //update
+    // Update is called once per frame
+    private void OnTriggerEnter(Collider plyr)
+	{
+        if (plyr.ToString().Equals("ai (UnityEngine.BoxCollider)"))
         {
-            //Check so we dont exceed our checkpoint quantity
-            if (LapsController.currentCheckpoint + 1 < LapsController.checkpointA.Length)
-            {
-                //Add to currentLap if currentCheckpoint is 0
-                if (LapsController.currentCheckpoint == 0)
-                    LapsController.currentLap++;
-                LapsController.currentCheckpoint++;
-            }
-            else
-            {
-                //If we dont have any Checkpoints left, go back to 0
-                LapsController.currentCheckpoint = 0;
-            }
-        }
-    }
+            aiCar.GetComponent<CarController>().addCheckpoint();
 
+        }
+        else if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)"))
+        {
+            player.GetComponent<CarController>().addCheckpoint();
+		}
+	}
 }
