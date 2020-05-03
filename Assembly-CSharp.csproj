@@ -76,9 +76,11 @@
     <Compile Include="Assets\Scripts\Game\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\Game\LapsController.cs" />
     <Compile Include="Assets\Scripts\Game\finishLineController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\CountDownTimer.cs" />
     <Compile Include="Assets\Scripts\GameScene\PlayerCar.cs" />
     <Compile Include="Assets\Scripts\GameScene\TopDownCamera.cs" />
     <Compile Include="Assets\Scripts\GraphOverlay.cs" />
+    <Compile Include="Assets\Scripts\InstantiationExample.cs" />
     <Compile Include="Assets\Scripts\MainMenu\Control.cs" />
     <Compile Include="Assets\Scripts\WheelDrive.cs" />
     <Compile Include="Assets\SimpleVehicleAI\Scripts\AIVehicle.cs" />
