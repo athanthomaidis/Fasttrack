@@ -10,7 +10,7 @@ public class TimeattackFinish : MonoBehaviour
 
     private void Start()
     {
-        timeleft= Track2LapCountdown.laptimer;
+        // timeleft= Track2LapCountdown.lapTimer;
     }
     private void OnTriggerEnter(Collider plyr)
 	{
