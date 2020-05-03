@@ -466,6 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
   checkpointCounter: 0
 --- !u!1 &227729612
 GameObject:
@@ -2252,6 +2253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
   checkpointCounter: 0
 --- !u!65 &653987456
 BoxCollider:
@@ -2360,6 +2362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
   checkpointCounter: 0
 --- !u!65 &658043891
 BoxCollider:
@@ -3408,6 +3411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
   checkpointCounter: 0
 --- !u!65 &936645137
 BoxCollider:
@@ -3886,6 +3890,12 @@ Transform:
   m_Father: {fileID: 1575429665}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1285516701 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1256867942060588, guid: b196e1dfe7d444244bbb11ffd632a0de,
+    type: 3}
+  m_PrefabInstance: {fileID: 503753034}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1287678081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4051,6 +4061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 850141688}
+  aiCar: {fileID: 1285516701}
   checkpointCounter: 0
 --- !u!65 &1348303350
 BoxCollider:
@@ -5841,6 +5852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  aiCar: {fileID: 0}
   checkpointCounter: 0
 --- !u!1 &1914701328
 GameObject:
