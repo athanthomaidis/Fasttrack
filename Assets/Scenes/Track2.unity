@@ -499,7 +499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b95f36ab5b5614caf7d05807bb9dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AICar: {fileID: 0}
+  AICar: {fileID: 717642846}
   brakingPower: 0.5
   enginePower: 1000
 --- !u!65 &71479108
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b95f36ab5b5614caf7d05807bb9dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AICar: {fileID: 0}
+  AICar: {fileID: 717642846}
   brakingPower: 0.5
   enginePower: 1200
 --- !u!65 &385941843
@@ -1230,7 +1230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b95f36ab5b5614caf7d05807bb9dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AICar: {fileID: 0}
+  AICar: {fileID: 717642846}
   brakingPower: 0.5
   enginePower: 1000
 --- !u!65 &676206850
@@ -1824,6 +1824,12 @@ WheelCollider:
 --- !u!146 &707974456 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 146172258457263576, guid: b196e1dfe7d444244bbb11ffd632a0de,
+    type: 3}
+  m_PrefabInstance: {fileID: 707974454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &717642846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1256867942060588, guid: b196e1dfe7d444244bbb11ffd632a0de,
     type: 3}
   m_PrefabInstance: {fileID: 707974454}
   m_PrefabAsset: {fileID: 0}
@@ -2436,7 +2442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100166818}
   m_LocalRotation: {x: -0, y: 0.58603156, z: -0, w: 0.8102883}
-  m_LocalPosition: {x: 1022.2, y: 1.94878, z: -435.5}
+  m_LocalPosition: {x: 1022.2, y: 17.1, z: -435.5}
   m_LocalScale: {x: 196.28926, y: 8.663513, z: 146.73203}
   m_Children: []
   m_Father: {fileID: 52082125}
@@ -2467,7 +2473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b95f36ab5b5614caf7d05807bb9dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AICar: {fileID: 0}
+  AICar: {fileID: 717642846}
   brakingPower: 0.5
   enginePower: 1000
 --- !u!65 &1100166822
