@@ -5,11 +5,13 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameObject humanCar;
+    public GameObject AIcar1;
     protected Transform carPosition;
     public GameObject startLine;
     public GameObject finishLine;
     protected int roundCounter;
     static int MAXROUNDS;
+    
 
     private void Awake()
     {
