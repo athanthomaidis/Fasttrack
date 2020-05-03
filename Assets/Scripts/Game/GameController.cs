@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
     {
         if(finishLine.GetComponent<finishLineController>().ranking.Count>0)
         {
+            Debug.Log(finishLine.GetComponent<finishLineController>().ranking.Count);
+            Debug.Log(finishLine.GetComponent<finishLineController>().ranking[0]);
             if(finishLine.GetComponent<finishLineController>().ranking[0]=="Player")
             {
                 //player wins finish game
@@ -29,7 +31,7 @@ public class GameController : MonoBehaviour
             }
             else if(finishLine.GetComponent<finishLineController>().ranking.Count==2)
             {
-                endGame();
+                endGameAI();
                 //computer wins but wait until player reach finish 
             }
         }
