@@ -10,7 +10,7 @@ public class finishLineController : MonoBehaviour
 
     private void Start()
     {
-        ranking = new List<GameObject>();
+        ranking = new List<string>();
     }
     private void OnTriggerEnter(Collider plyr)
 	{
