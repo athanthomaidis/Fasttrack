@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 4533341737929262}
   - component: {fileID: 54614942136194314}
   - component: {fileID: 114899156347454882}
+  - component: {fileID: 157563287211406459}
   m_Layer: 8
   m_Name: AIVehicle
   m_TagString: AI
@@ -414,6 +415,18 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   wayPointDistance: 20
+--- !u!114 &157563287211406459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256867942060588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 289e077f0b61f2a4ca264645fa84a029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1282627262236736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,7 +1468,7 @@ GameObject:
   - component: {fileID: 6726415537819832818}
   - component: {fileID: 1406912045275826705}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: ai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

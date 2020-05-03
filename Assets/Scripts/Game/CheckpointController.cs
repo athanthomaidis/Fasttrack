@@ -7,31 +7,20 @@ public class CheckpointController : MonoBehaviour
 	//public Transform checkpoint;
 	public GameObject player;
 	public GameObject aiCar;
-	public int checkpointCounter;
 	// Use this for initialization
-	void Start()
-	{
-        
-        checkpointCounter = 0;
-		//player = GameObject.FindWithTag("Player");
-        //Debug.Log(player.gameObject.tag);
 
-    }
     //update
-
-
     // Update is called once per frame
     private void OnTriggerEnter(Collider plyr)
 	{
-        if(plyr.tag.Equals(aiCar.tag))
+        if (plyr.ToString().Equals("ai (UnityEngine.BoxCollider)"))
         {
-            Debug.Log("inside AI");
-            checkpointCounter++;
+            aiCar.GetComponent<CarController>().addCheckpoint();
+
         }
-		if (plyr.tag.Equals(player.tag))
-		{
-            Debug.Log("inside PLAYER");
-            checkpointCounter++;
+        else if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)"))
+        {
+            player.GetComponent<CarController>().addCheckpoint();
 		}
 	}
 }
