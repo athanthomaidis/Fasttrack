@@ -291,7 +291,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.9338235, g: 0.9338235, b: 0.9338235, a: 1}
   m_RaycastTarget: 1
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1076,6 +1076,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &401722989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1515902275267726, guid: cd444978e24d7d44fa26d1634f135d14,
+    type: 3}
+  m_PrefabInstance: {fileID: 791053331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &401722990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401722989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9def1a939588a34c93ebf902e2ca5e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &412787057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1285,10 @@ PrefabInstance:
     - target: {fileID: 1256867942060588, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
       propertyPath: m_Name
       value: AIVehicle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1647630677990802, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4037525051717898, guid: b196e1dfe7d444244bbb11ffd632a0de, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1955,8 +1977,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 698758490}
-        m_MethodName: QuitGame
+      - m_Target: {fileID: 401722990}
+        m_MethodName: exitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7208,8 +7230,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 698758490}
-        m_MethodName: LoadMenu
+      - m_Target: {fileID: 401722990}
+        m_MethodName: goBack
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8993,12 +9015,12 @@ PrefabInstance:
     - target: {fileID: 984618102614627913, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 3249.997
+      value: 3249.9973
       objectReference: {fileID: 0}
     - target: {fileID: 984618102614627913, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620001
       objectReference: {fileID: 0}
     - target: {fileID: 984618102659345300, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
@@ -9008,17 +9030,17 @@ PrefabInstance:
     - target: {fileID: 984618102659345300, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionSpring.spring
-      value: 20312.535
+      value: 20312.531
       objectReference: {fileID: 0}
     - target: {fileID: 984618102659345300, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 3250.0056
+      value: 3250.0051
       objectReference: {fileID: 0}
     - target: {fileID: 984618102659345300, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.1962
+      value: 0.19620001
       objectReference: {fileID: 0}
     - target: {fileID: 984618102659345307, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
@@ -9043,12 +9065,12 @@ PrefabInstance:
     - target: {fileID: 984618102664397916, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionSpring.damper
-      value: 3149.995
+      value: 3149.9949
       objectReference: {fileID: 0}
     - target: {fileID: 984618102664397916, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: m_SuspensionDistance
-      value: 0.19620001
+      value: 0.1962
       objectReference: {fileID: 0}
     - target: {fileID: 984618103422306969, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
