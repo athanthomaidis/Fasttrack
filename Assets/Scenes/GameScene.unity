@@ -9078,7 +9078,7 @@ PrefabInstance:
     - target: {fileID: 984618103918162752, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
       propertyPath: maxTorque
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 984618103918162752, guid: a5bf6f2439712a54988c5132dfb9159a,
         type: 3}
