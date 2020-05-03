@@ -1,29 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CountDownTimer : MonoBehaviour
 {
+    float currentTime = 0f;
+    float startingTime = 3f;
+
+    [SerializeField] Text countdownText;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Countdown(3));
+        currentTime = startingTime;
     }
-    IEnumerator Countdown(int seconds){
-        int count = seconds;
-       
-        while (count > 0) {
-           
-            // display something...
-            yield return new WaitForSeconds(1);
-            count --;
+    void Update(){
+        currentTime -= 1*Time.deltaTime;
+        countdownText.text = currentTime.ToString("0");
+
+        if (currentTime<0){
+            countdownText= null;
+            countdownText.gameObject.active=false;
         }
-       
-        // count down is finished...
-        StartGame();
-    }
-    void StartGame()
-    {
-        // do something...
+        
     }
 }

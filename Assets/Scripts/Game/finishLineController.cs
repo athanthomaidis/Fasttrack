@@ -17,16 +17,24 @@ public class finishLineController : MonoBehaviour
         if (plyr.ToString().Equals("ai (UnityEngine.BoxCollider)"))
         {
             aiCar.GetComponent<CarController>().finishROund();
-            if(aiCar.GetComponent<CarController>().getRounds()>3)
+            aiCar.GetComponent<CarController>().resetCheckpoint();
+            Debug.Log("Ranking size: " + ranking.Count);
+            Debug.Log("Round : " + aiCar.GetComponent<CarController>().getRounds());
+            if (aiCar.GetComponent<CarController>().getRounds()==3)
             {
                 ranking.Add("Computer");
+                Debug.Log("Ranking size: " + ranking.Count);
             }
         }
         else if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)"))
 
         {
             player.GetComponent<CarController>().finishROund();
-            if (player.GetComponent<CarController>().getRounds() > 3)
+            player.GetComponent<CarController>().resetCheckpoint();
+            Debug.Log("Ranking size: "+ranking.Count);
+            Debug.Log("Round : "+player.GetComponent<CarController>().getRounds());
+
+            if (player.GetComponent<CarController>().getRounds() == 3)
             {
                 ranking.Add("Player");
                 
