@@ -74,6 +74,8 @@
      <Compile Include="Assets\Scripts\GraphOverlay.cs" />
      <Compile Include="Assets\Scripts\InstantiationExample.cs" />
      <Compile Include="Assets\Scripts\MainMenu\Control.cs" />
+     <Compile Include="Assets\Scripts\TimeattackFinish.cs" />
+     <Compile Include="Assets\Scripts\Track2LapCountdown.cs" />
      <Compile Include="Assets\Scripts\WheelDrive.cs" />
      <Compile Include="Assets\SimpleVehicleAI\Scripts\AIVehicle.cs" />
      <Compile Include="Assets\SimpleVehicleAI\Scripts\BrakeZone.cs" />
