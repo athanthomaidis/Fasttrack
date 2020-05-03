@@ -20,7 +20,6 @@ public class CheckpointController : MonoBehaviour
         Debug.Log(plyr.ToString());
         if (plyr.ToString().Equals("ai (UnityEngine.BoxCollider)"))
         {
-            Debug.Log("inside AI");
             checkpointCounter++;
             aiCar.GetComponent<CarController>().addCheckpoint();
 
@@ -28,13 +27,8 @@ public class CheckpointController : MonoBehaviour
         else if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)"))
 
         {
-            Debug.Log("inside PLAYER");
             checkpointCounter++;
             player.GetComponent<CarController>().addCheckpoint();
 		}
-        else
-        {
-            Debug.Log("nowhere");
-        }
 	}
 }
