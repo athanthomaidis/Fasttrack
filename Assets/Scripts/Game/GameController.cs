@@ -10,6 +10,9 @@ public class GameController : MonoBehaviour
     public GameObject finishLine;
     protected int roundCounter;
     static int MAXROUNDS;
+    public GameObject winPanel;
+    public GameObject losePanel;
+    public CountDownTimer timer;
     
 
     private void Awake()
@@ -28,10 +31,14 @@ public class GameController : MonoBehaviour
             {
                 //player wins finish game
                 endGame();
+                Time.timeScale = 0;
+                winPanel.SetActive(true);
             }
             else if(finishLine.GetComponent<finishLineController>().ranking.Count==2)
             {
                 endGameAI();
+                Time.timeScale = 0;
+                losePanel.SetActive(true);
                 //computer wins but wait until player reach finish 
             }
         }
@@ -49,6 +56,7 @@ public class GameController : MonoBehaviour
     {
         //do whatever you need to.
         Debug.Log("The game is ended, the player wins");
+        
         //initialization();
     }
 
