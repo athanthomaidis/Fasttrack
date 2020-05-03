@@ -20,13 +20,24 @@ public class CountDownTimer : MonoBehaviour
     void Update(){
         currentTime -= 1*Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
-        //Time.timeScale = 0;
+
 
         if (currentTime<=0){
-            //Time.timeScale = 1;
             countdownText = null;
             panel.SetActive(false);
+            this.enabled = false;
         }
         
+    }
+
+    public void displayTimer()
+    {
+
+    }
+    public void hideTimer()
+    {
+        //Time.timeScale = 1;
+        countdownText = null;
+        panel.SetActive(false);
     }
 }
