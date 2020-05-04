@@ -11,7 +11,7 @@ public class Track2LapCountdown : MonoBehaviour
 
     private void Awake()
     {
-        lapTimer = 10f;
+        lapTimer = 180f;
     }
     // Start is called before the first frame update
     void Start()
