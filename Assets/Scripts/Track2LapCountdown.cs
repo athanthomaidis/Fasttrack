@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class Track2LapCountdown : MonoBehaviour
 {
-    public float lapTimer = 300f;
+    public float lapTimer;
     bool lapComplete;
      [SerializeField] Text countdownText;
 
+    private void Awake()
+    {
+        lapTimer = 10f;
+    }
     // Start is called before the first frame update
     void Start()
     {

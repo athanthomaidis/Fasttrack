@@ -10,7 +10,9 @@ public class finishLineController : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log("Finish Start");
         ranking = new List<string>();
+        Debug.Log("Finish Start");
     }
     private void OnTriggerEnter(Collider plyr)
 	{

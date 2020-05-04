@@ -5,7 +5,7 @@ using UnityEngine;
 public class CarController : MonoBehaviour
 {
     int roundCounter;
-    int checkpointCounter;
+    public int checkpointCounter;
 
     private void Start()
     {
