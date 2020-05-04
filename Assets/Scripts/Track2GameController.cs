@@ -21,7 +21,7 @@ public class Track2GameController : MonoBehaviour
         Debug.Log("Update");
         if(timeleft>0.0f && finishLine.GetComponent<TimeattackFinish>().ranking.Count > 0)
         {
-            timerText.GetComponent<Track2LapCountdown>().lapTimer = 0f;
+            timerText.GetComponent<Track2LapCountdown>().lapTimer = 1f;
             //player wins finish game
             Time.timeScale = 0;
             winPanel.SetActive(true);

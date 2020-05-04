@@ -25,7 +25,8 @@ public class TimeattackFinish : MonoBehaviour
     }
     private void OnTriggerEnter(Collider plyr)
 	{
-        if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)") && player.GetComponent<CarController>().checkpointCounter==3)
+        Debug.Log(player.GetComponent<CarController>().checkpointCounter);
+        if (plyr.ToString().Equals("player (UnityEngine.BoxCollider)") && player.GetComponent<CarController>().checkpointCounter>=3)
         {
                 Debug.Log("You won the game");
                 ranking.Add("Player");
